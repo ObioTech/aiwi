@@ -4,7 +4,7 @@ Welcome to the public writing space for AIWI. Here we share our engineering thou
 
 ## Published Notes
 
-*   **June 15, 2026** — [Why I’m Building AIWI](_posts/2026-06-15-why-im-building-aiwi.md)
+*   **June 15, 2026** — [Why I'm Building AIWI](posts/why-im-building-aiwi/)
     *Why AI agents are getting better at coding, but still struggle because they forget the project context.*
 *   **June 15, 2026** — [Project Link: When Project Brains Can Read Each Other](posts/project-link.md)
     *Connecting distinct project contexts read-only without merging codebases or re-indexing.*
@@ -17,4 +17,4 @@ We plan to write about:
 - **AI Memory Should Not Write Itself Into Truth**: The importance of human-in-the-loop curation for agent memories.
 - **Small MCP Surface, Strong Agent Profiles**: Structuring intelligence at the prompt/reasoning level instead of building bloated tools.
 - **Why AIWI Does Not Embed Every Ticket**: Filtering operational noise from long-term project knowledge.
-- **From Requirement to Impact**: How agents trace design specifications down to AST nodes and verification tests.
+- **From Requirement to Impact**: How agents connect requirements with code context, risks, and test scope.

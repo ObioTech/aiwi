@@ -1,3 +1,8 @@
+---
+title: "Project Link: When Project Brains Can Read Each Other"
+permalink: /posts/project-link/
+---
+
 # Project Link: When Project Brains Can Read Each Other
 
 *(Vietnamese version below)*
@@ -6,15 +11,15 @@ Every software project usually has its own distinct context boundary. With AIWI,
 
 However, in real-world systems, projects frequently communicate with each other. How can an AI agent coding a frontend application understand the backend API without merging the source code?
 
-That's where **Project Link** comes into play.
+That's the idea behind **Project Link**.
 
 ## Read-only Linking
 
-A project can establish a read-only link to the Project Brain of another project.
+Project Link explores a read-only way for one Project Brain to query selected evidence from another Project Brain.
 
 For example: You are coding a React Native app that needs to call an Odoo backend. Instead of forcing the AI agent to guess the API structure or cloning the heavy backend source code to your machine, the React Native project can "link" directly to the Odoo backend's Project Brain.
 
-Then, the AI Agent working on React Native can easily look up:
+Then, the AI Agent working on React Native can look up:
 - API contracts.
 - Data models and services.
 - Architectural decisions.
@@ -42,15 +47,15 @@ Mỗi project phần mềm thường có một "vùng ngữ cảnh" (context) ri
 
 Tuy nhiên, trong các hệ thống thực tế, các project thường xuyên giao tiếp với nhau. Làm sao để AI agent khi code frontend có thể hiểu được backend API mà không cần gộp chung source code?
 
-Đó là lúc **Project Link** phát huy tác dụng.
+Đó là ý tưởng phía sau **Project Link**.
 
 ## Read-only Linking
 
-Một project có thể tạo link read-only tới Project Brain của project khác.
+Project Link khám phá một cách tiếp cận read-only để một Project Brain có thể truy vấn phần evidence được chọn lọc từ Project Brain khác.
 
 Ví dụ: Bạn đang code một React Native app. App này cần gọi tới một Odoo backend. Thay vì bắt AI agent đoán cấu trúc API hoặc phải clone cả source code backend nặng nề về máy, React Native project có thể "link" thẳng tới Project Brain của Odoo backend.
 
-Khi đó, AI Agent đang làm việc trên React Native có thể dễ dàng tra cứu:
+Khi đó, AI Agent đang làm việc trên React Native có thể tra cứu:
 - API contracts.
 - Data models và services.
 - Architectural decisions.

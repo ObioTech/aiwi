@@ -2,6 +2,7 @@
 layout: post
 title: "Why I’m Building AIWI"
 date: 2026-06-15
+permalink: /posts/why-im-building-aiwi/
 ---
 
 # Why I’m Building AIWI

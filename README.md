@@ -10,3 +10,5 @@ AIWI helps AI agents deeply understand software projects through documents, code
 - **Project Brain, not a Workflow Suite:** AIWI acts as the unified intelligence layer for your project, exposing context and memories that any workflow or agent profile can leverage.
 
 For more details, concept docs, and public demos, visit our [GitHub Pages Documentation](https://obiotech.github.io/aiwi/).
+
+> AIWI core is currently private. This repository hosts public notes, architecture writing, and project updates.
