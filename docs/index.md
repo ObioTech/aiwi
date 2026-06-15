@@ -11,7 +11,7 @@ AIWI helps AI agents understand your software project. By indexing documents, co
 - **Human-approved Memory**: Governance over architectural decisions, conventions, and bug patterns.
 
 ## Featured Posts
-- [Project Link: Khi các Project Brain có thể đọc nhau](posts/project-link.md)
+- [Project Link: When Project Brains Can Read Each Other](posts/project-link.md)
 
 ## Current Status
 AIWI is currently in active development. This public surface serves as a landing page for our core concepts, architectural decisions, and public-facing documentation. The core infrastructure code remains private.
