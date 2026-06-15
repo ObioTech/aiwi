@@ -1,3 +1,41 @@
+# Project Link: When Project Brains Can Read Each Other
+
+*(Vietnamese version below)*
+
+Every software project usually has its own distinct context boundary. With AIWI, each project can have its own **Project Brain**, acting as a repository that stores all documents, code context, decisions, and memory for that specific project.
+
+However, in real-world systems, projects frequently communicate with each other. How can an AI agent coding a frontend application understand the backend API without merging the source code?
+
+That's where **Project Link** comes into play.
+
+## Read-only Linking
+
+A project can establish a read-only link to the Project Brain of another project.
+
+For example: You are coding a React Native app that needs to call an Odoo backend. Instead of forcing the AI agent to guess the API structure or cloning the heavy backend source code to your machine, the React Native project can "link" directly to the Odoo backend's Project Brain.
+
+Then, the AI Agent working on React Native can easily look up:
+- API contracts.
+- Data models and services.
+- Architectural decisions.
+- Code context from the backend.
+
+Everything happens with:
+- **No source code merging:** Preserves the independence of each repository.
+- **No re-indexing:** Data already indexed in the backend Brain can be read directly.
+- **No data mutation:** The connection is strictly read-only, protecting the integrity of the backend Brain.
+
+## Transparency and Explicit Scope
+
+Linking between Project Brains is designed with clarity in mind:
+- **Provenance:** The agent always knows which Brain the information comes from.
+- **Explicit Scope:** Only context explicitly exposed through the interface is shared.
+- **No cross-project dependency inference:** The system will not automatically infer vague dependency boundaries between projects without explicit evidence.
+
+Project Link opens up a new approach for AI agents working in microservices systems or multi-project architectures with clear boundaries: **Understanding the entire system safely and lightly.**
+
+---
+
 # Project Link: Khi các Project Brain có thể đọc nhau
 
 Mỗi project phần mềm thường có một "vùng ngữ cảnh" (context) riêng biệt. Với AIWI, mỗi project có thể có một **Project Brain** riêng, đóng vai trò như một bộ não lưu trữ toàn bộ documents, code context, decisions, và memory của dự án đó.
