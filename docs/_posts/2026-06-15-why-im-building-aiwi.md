@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Why I’m Building AIWI"
+title: "Why I’m Building ObiBrain"
 date: 2026-06-15
 permalink: /posts/why-im-building-aiwi/
 ---
 
-# Why I’m Building AIWI
+# Why I’m Building ObiBrain
 
 ## The Problem
 
@@ -23,9 +23,9 @@ A generic context window search or broad codebase search often gets overwhelmed 
 
 ## The Idea
 
-AIWI is my attempt to build a **local-first Project Brain** for AI agents.
+ObiBrain is my attempt to build a **local-first Project Brain** for AI agents.
 
-AIWI acts as a dedicated context layer that sits alongside the developer workspace.
+ObiBrain acts as a dedicated context layer that sits alongside the developer workspace.
 - It does not replace the agent.
 - It does not replace Jira or Linear.
 - It does not replace your IDE.
@@ -34,7 +34,7 @@ Instead, it feeds the agent the exact project memory and evidence it needs befor
 
 ## The Principles
 
-AIWI is designed around these foundational principles:
+ObiBrain is designed around these foundational principles:
 
 - **Local-first**: Project intelligence runs on your machine, under your direct control.
 - **SQLite-first**: Structured memory and state are saved in simple, portable local SQLite databases.
@@ -52,11 +52,11 @@ It requires understanding:
 - Historical bug patterns and regression scope.
 - Architecture boundaries and safe human approval points.
 
-AIWI is an experiment in giving agents that missing project brain.
+ObiBrain is an experiment in giving agents that missing project brain.
 
 ## Current Status
 
-AIWI is still in its early stages. 
+ObiBrain is still in its early stages. 
 
 The core package is currently private as I iterate on the local indexing engine and profiles. I am starting by sharing the core concepts, architecture notes, and lessons learned here in public.
 

@@ -7,7 +7,7 @@ permalink: /posts/project-link/
 
 *(Vietnamese version below)*
 
-Every software project usually has its own distinct context boundary. With AIWI, each project can have its own **Project Brain**, acting as a repository that stores all documents, code context, decisions, and memory for that specific project.
+Every software project usually has its own distinct context boundary. With ObiBrain, each project can have its own **Project Brain**, acting as a repository that stores all documents, code context, decisions, and memory for that specific project.
 
 However, in real-world systems, projects frequently communicate with each other. How can an AI agent coding a frontend application understand the backend API without merging the source code?
 
@@ -43,7 +43,7 @@ Project Link opens up a new approach for AI agents working in microservices syst
 
 # Project Link: Khi các Project Brain có thể đọc nhau
 
-Mỗi project phần mềm thường có một "vùng ngữ cảnh" (context) riêng biệt. Với AIWI, mỗi project có thể có một **Project Brain** riêng, đóng vai trò như một bộ não lưu trữ toàn bộ documents, code context, decisions, và memory của dự án đó.
+Mỗi project phần mềm thường có một "vùng ngữ cảnh" (context) riêng biệt. Với ObiBrain, mỗi project có thể có một **Project Brain** riêng, đóng vai trò như một bộ não lưu trữ toàn bộ documents, code context, decisions, và memory của dự án đó.
 
 Tuy nhiên, trong các hệ thống thực tế, các project thường xuyên giao tiếp với nhau. Làm sao để AI agent khi code frontend có thể hiểu được backend API mà không cần gộp chung source code?
 
